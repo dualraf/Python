@@ -57,4 +57,6 @@ normalized_df=(dataset-dataset.min())/(dataset.max()-dataset.min())
 
 normalized_df.plot(figsize=(10,8),marker='o',linewidth=4).legend(loc=(1, 0));
 
+plt.savefig('dataset.png')
+
 
